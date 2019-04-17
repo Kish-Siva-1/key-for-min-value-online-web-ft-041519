@@ -3,7 +3,8 @@
 
 def key_for_min_value(name_hash)
   
-  min_num = 0
+  min_num = []
+  name = []
   
   name_hash.each do |key, value|
     
