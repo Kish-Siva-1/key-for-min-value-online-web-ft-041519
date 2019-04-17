@@ -9,15 +9,13 @@ def key_for_min_value(name_hash)
     
     if value <= min_num
       min_num = value
-    else
-      min_num = min_num
+      name = key 
     end
     
     puts min_num
   
-  end
+  return name
   
-  return key 
-
+  end
   
 end
