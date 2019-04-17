@@ -3,18 +3,14 @@
 
 def key_for_min_value(name_hash)
   
-  min_num = 0
-  
-  name_hash.each do |key, value|
-    
-    if value <= min_num
-      min_num = value
-    else
-      min_num = min_num
+  lowest_key = nil
+  lowest_value = Float::INFINITY
+  hash.each do |k, v|
+    if v < lowest_value
+      lowest_value = v
+      lowest_key = k
     end
-    
-    puts min_num
-  
   end
+  lowest_key
 
 end
