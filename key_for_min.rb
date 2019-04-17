@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |element|
     
     if element <= min_num
-      min_num = num
+      min_num = element
     else
       min_num = min_num
     end
