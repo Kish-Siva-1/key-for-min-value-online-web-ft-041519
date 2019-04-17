@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
 
   min_num = name_hash[1]
   
-  name_hash.each do |element|
+  name_hash.collect do |element|
     
     if element <= min_num
       min_num = element
