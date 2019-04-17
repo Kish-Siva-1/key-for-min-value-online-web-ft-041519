@@ -4,7 +4,6 @@
 def key_for_min_value(name_hash)
   
   min_num = nil
-  name = nil
   
   name_hash.each do |key, value|
     
@@ -13,11 +12,9 @@ def key_for_min_value(name_hash)
       name = key 
     else
       min_num = min_num
-      name = name 
     end
     
     puts min_num
-    puts name
   
   end
   
