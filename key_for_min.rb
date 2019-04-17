@@ -12,10 +12,13 @@ def key_for_min_value(name_hash)
       name = key 
     else
       min_num = min_num
+      name = name 
     end
     
     puts min_num
   
   end
+  
+  name 
   
 end
